@@ -27,7 +27,7 @@ class _generate_QrCodeState extends State<generate_QrCode> {
             children: [
               if(urlcontroller.text.isNotEmpty)
               
-             QrImage(data: urlcontroller.text,size:200,),//fix this
+             //QrImage(data: urlcontroller.text,size:200,),//fix this
               const SizedBox(height: 18,),
               Container(
                 padding: const EdgeInsets.only(left: 10,right: 10,),
